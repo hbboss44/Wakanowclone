@@ -536,6 +536,8 @@ footer div p{
         width: 100%;
         max-width: -webkit-fill-available;
         margin: 7px 0;
+        background-color:#fff;
+        border:none;
     }
     .check{
         display: none;
