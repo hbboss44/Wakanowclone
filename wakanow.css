@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,main{
+    font-family: sans-serif;
+}
+.logo img{
+    width: 155px;
+    margin-right: 40px;
+}
+div a,nav a{
+    color: #234;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0 5px;
+}
+nav a img{
+    width: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 15px;
+    z-index: 3;
+    position: relative;
+    top: 0;
+    
+}
+.input input{
+    width: 145px;
+    padding:18px;
+}
+.input span{
+    padding-right: 13px;
+}
+.banner{
+    margin: 0 auto;
+    width: 83%;
+    max-width: fit-content;
+    padding-bottom: 50px;
+}
+.banner-wrap{
+    width: 100%;
+    background-image: url("https://wakanow-images.azureedge.net/SlideBannerImages/WakaChristmass22.jpg");
+    background-size: cover;
+    padding-top: 70px;
+}
+.banner h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fligh div p{
+    display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+}
+#io{
+    display: none !important;
+}
+.visa{
+    margin-top:30px;
+}
+.visa p:nth-child(-n+1){
+    background-color: #007bff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.space{
+    padding:24px;
+    background-color: #007bff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pit{
+    display: none;
+}
+.trip,.pit{
+    padding-bottom: 18px;
+}
+.trip span,.pit span{
+    color: #fff;
+    padding: 8px 19px 8px 12px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    
+}
+.trip button,.pit button{
+    background-color:#399af4;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-left: px;
+}
+.input{
+    padding-bottom: 18px;
+}
+.check{
+    text-align: end;
+    color: #fff;
+}
+#submit{
+    background-color: rgb(245, 130, 32);
+    border: none;
+    border-radius: 5px;
+}
+.NO1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    width: 84%;
+}
+.NO1 > div{
+    display: flex;
+    width: 30%;
+}
+.waka img,.now img,.com img{
+    padding-right: 16px;
+}
+.NO1>div div h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.NO1>div div p{
+    color:#6d8494;
+    line-height: 17px;
+    font-size: 14px;
+}
+.image img{
+    height: 131px;
+}
+.image{
+    margin: 0 auto;
+    width: 84%;}
+    .image img:nth-child(2){
+        display: none;
+    }    
+.time,.pay{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+}  
+.time div p{
+    color: #fff;
+}
+.time div img{
+    border-radius: 50%;
+}
+.font-12{
+    font-size: 15px;
+    margin: 16px 0;
+    color: #fff;
+}
+.pay div p{
+    color: #fff;
+    font-size: 14px;
+} 
+.pay div h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.fare{
+    display: flex;
+    background-color: #f58220;
+    box-shadow: 0 2px 0 #d8690a;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+.fare div p{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.lock{
+    padding-left: 10px;
+}
+.fare div span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.all-time{
+    width: 30%;
+    background-image: url("https://wakanowstorage.blob.core.windows.net/wakanow-public-images/Content/Images/Common/top-flight-deals/LAG-1.png");
+    background-position: center;
+}
+.all{
+    width: 30%;
+    background-image: url("https://wakanowstorage.blob.core.windows.net/wakanow-public-images/Content/Images/Common/top-flight-deals/london.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ally{
+    width: 30%;
+    background-image: url("https://wakanowstorage.blob.core.windows.net/wakanow-public-images/Content/Images/Common/top-flight-deals/Flight%20Deals%20Images/New%20Delhi%2C.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h5{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 45px;
+}
+.flight{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 90px 50px;
+}
+.dub{
+    background-image: url("https://wakanow-images-prod.azureedge.net/Images/Common/Deals/Dubai.jpg");
+    padding-bottom: 5%;
+    background-repeat: no-repeat;
+    width: 45%;
+}
+.dub div,.lon div{
+    vertical-align:text-bottom;
+}
+.dub div h5,.lon div h5{
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.dub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    gap: 95%;
+}
+.lon{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 169px;
+}
+.dub div p,.lon div p{
+    color: #fff;
+    font-size: 14px;
+}
+.lon{
+    background-image: url("https://wakanow-images-prod.azureedge.net/Images/Common/Deals/London.jpg");
+    padding-bottom: 1.5%;
+    background-repeat: no-repeat;
+    width: 45%;
+    background-size: cover;
+    padding-left: 17px;
+}
+.hotel{
+    display: flex;
+    justify-content: center;
+}
+.location h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.location{
+    padding: 60px 30px 80px;
+}
+.assets{
+    display: flex;
+    align-items: center;
+    background-color: #399af4;
+}
+.store{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.assets div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.or{
+    color: #fff;
+}
+.assets div p{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.play img{
+    margin-right: 12px;
+}
+.amazing{
+    margin-left: -15%;
+}
+.mobile{
+    margin-left: -80px;
+    margin-top: -12%;
+}
+.deal div input:nth-child(-n+1){
+    height: 56px;
+    border-color: #ddeaf0;
+    border: 1px solid #ddeaf0;
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+}
+.deal div input:last-child{
+    height: 65px;
+    width: 15%;
+    background-color: #f58220;
+    box-shadow: 0 2px 0 #d8690a;
+    border-color: #f58220;
+    border-radius: 3px;
+}
+.deal{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f1f4f7;
+    margin: 120px auto 40px;
+}
+.dive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 35px 24px;
+}
+.dive h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.dive p{
+    margin-bottom: 18px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.dive p:last-child{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 26px;
+    font-size: 14px;
+}
+.fligt{
+    margin: 0 auto;
+    width: 83%;
+    padding: 40px 0 18px 30px;
+}
+.fligt p{
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #6d8494;
+}
+.fligt h5{
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+.cheap{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    padding: 5px 0;
+}
+.cheap div li a{
+    color: #6d8494;
+    font-size: 15px;
+    font-weight: 400;
+}
+.cheap div li a:hover{
+    color: #007bff;
+}
+.cheap div h5{
+    font-size: 15px;
+    padding-left: 13px;
+    padding-bottom: 8px;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.from{
+    margin: 0 auto;
+    width: 83%;
+    padding-bottom: 30px;
+}
+.from> h5{
+    margin-bottom: 24px;
+    padding-left: 13px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.niger{
+    padding-bottom: 20px;
+
+}
+.international{
+    display: flex;
+    margin: 0 auto;
+    width: 83%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.international div{
+    width: 30%;
+}
+.international div h5{
+    font-size: 16px;
+    line-height: 1rem;
+    margin-bottom: 8px;
+}
+.international div p{
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #6d8494;
+    font-weight: 500;
+}
+.international div span i{
+    background-color: #f2f2f2;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+    color: #24335d;
+}
+footer{
+    background-color: #234;
+    padding: 24px 0;
+}
+footer div{
+    margin: 0 auto;
+    width: 83%;
+}
+footer div a{
+    color: #fff;
+    padding: 6px 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer div h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 8px;
+    padding-bottom: 12px;
+}
+footer div p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 8px;
+    margin: 12px 0;
+}
+@media(max-width:780px){
+    .logo a{
+        display: none;
+    }
+    nav a:nth-last-child(-n+4){
+        display: none;
+    }
+    header{
+        width: 100%;
+        max-width: fit-content;
+        gap: 3px;
+    }
+    #io{
+        display: inline !important;
+    }
+    nav{
+        display: flex;
+    }
+    .fligh div p{
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+    .banner h4{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+        max-width: fit-content;
+    }
+    .visa{
+        background-color: #399af4;
+        margin-top: 0;
+        width: 100%;
+    }
+    .pit i{
+        display: none;
+    }
+    .pit span{
+        font-size: 12px;
+        padding:8px 1px;
+    }
+    .visa p:nth-child(-n+1) {
+        background-color: #399af4;
+    }
+    .banner-wrap{
+        padding-top: 0;
+    }
+    .visa p i{
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .trip{
+        display: none;
+    }
+    .pit{
+        display: flex;
+    }
+    .pit button{
+        margin-right: 20px;
+    }
+    .input span{
+        display: flex;
+    }
+    .input span input{
+        width: 100%;
+        max-width: -webkit-fill-available;
+        margin: 7px 0;
+    }
+    .check{
+        display: none;
+    }
+    #submit{
+        width: 95%;
+        color: #fff;
+        font-size: 15px;
+    }
+    .banner-wrap{
+        background-image: url("https://wakanow-images.azureedge.net/SlideBannerImages/WakanowNewYear23.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: -webkit-fill-available;
+    }
+    .space{
+        background-color: transparent;
+        padding: 10px 19px;
+    }
+    .NO1{
+        display: none;
+    }
+    .image img:nth-child(-n+1){
+        display: none;
+    }
+    .image img:nth-child(2){
+        display: block;
+    } 
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 320px;
+    padding: 20px 12px;
+    }
+    .all,.ally{
+        display: none;
+    }
+    .flight{
+        display: block;
+        padding: 15px;
+    }
+    .fligt h5{
+        padding-top: 30px;
+    }
+    .h5{
+        padding-left: 15px;
+    }
+    .all-time{
+        width: 100% !important;
+        max-width: fit-content;
+    }
+    .time, .pay{
+        gap: 50px;
+    }
+    .lon{
+        display: none;
+    }
+    .dub{    gap: 30%;
+    width: 100%;
+    height: 240px;
+    }
+    .location{
+        padding: 60px 15px;
+    }
+    .location h4{
+        font-size: 20px;
+        padding: 0 0 20px;
+
+    }
+    .play img:first-child,.or,.roe{
+        display: none;
+    }
+    .mobile{
+        padding: 0;
+    }
+    .mobile img{
+        width: 400px;
+        margin-left: -20%;
+        margin-top: -36%;
+    }
+    .assets{
+        width: 100%;
+    }
+    .amazing{
+        margin-left: -55%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .assets div h2{
+        width: 80%;
+    }
+    .assets div p{
+        line-height: 21px;
+        font-size: 16px;
+    }
+    .deal{
+        width: 100%;
+        padding: 0;
+        margin: 50px 0;
+    }
+    .dive div input{
+        display: block;
+        width: 100% !important;
+        max-width: -webkit-fill-available;
+        margin-bottom: 22px;
+    }
+    .dive p:last-child{
+        width: 90%;
+        margin-top: 6px;
+    }
+    .dive p{
+        font-size: 16px;
+    }
+    .fligt p,.cheap{
+        display: none;
+    }
+    .fligt,.from{
+        width: 100%;
+        padding: 0 ;
+        background-color: #234;
+        
+    }
+    .fligt h5,.from> h5{
+        margin-bottom: -1px;
+        padding-left: 15px;
+        line-height: 21px;
+        padding-bottom: 17px;
+        color: #fff;
+    }
+    .international{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #234;
+        margin-top: -20px;
+        padding-top: 25px;
+        border-top: 3px dashed #fff;
+    }
+    .international div{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .international div p,.international div h5,.international div span{
+        width: 80%;
+        color: #fff;
+        padding: 0 15px;
+    }
+    footer{
+        margin-top: -1px;
+    }
+    footer div h5{
+        display: none;
+    }
+    footer div a{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    footer div {
+        width: 100%;
+    }
+    footer div p{
+        font-size: 14px;
+    }
+}

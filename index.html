@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wakanow clone</title>
+    <link rel="stylesheet" href="wakanow.css">
+    <script src="https://kit.fontawesome.com/97548ae3c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="https://www.wakanow.com/assets/images/wakanow-logo.png" alt="wakanow-logo">
+                <a href="#">Flights</a>
+                <a href="#">Hotels</a>
+                <a href="#">Rides</a>
+                <a href="#">Covid-19 Info</a>
+                <a href="#">More   <i class="fa-solid fa-caret-down"></i></a>
+            </div>
+            <nav>
+                <a href="#">Support</a>
+                <a href="#" id="io"><i class="fa-solid fa-bars"></i></a>
+                <a href="#"><img src="https://www.whogohost.ng/public/images/countries_assets/1563979182.nigeria.svg"></a>
+                <a href="#">NGN</a>
+                <a href="#">WakaPoints</a>
+                <a href="#">Manage My Booking</a>
+            </nav>
+        </header>
+        <div class="banner-wrap">
+        <section class="banner">
+            <h4>Search and Book Flights and Hotels</h4>
+            <div class="fligh">
+                <div class="visa">
+                    <p><i class="fa-solid fa-plane"></i> BOOK FLIGHTS</p>
+                    <p><i class="fa-solid fa-bed"></i> FIND HOTELS</p>
+                    <p><i class="fa-solid fa-passport"></i> VISA</p>
+                </div>
+                <div class="space">
+                <div class="trip">
+                    <button><span>Round trip <i class="fa-solid fa-caret-down"></i></span></button>
+                    <button><span> 1 Passenger <i class="fa-solid fa-caret-down"></i></span></button>
+                    <button><span>Economy <i class="fa-solid fa-caret-down"></i></span></button>
+                </div> 
+                <div class="pit">
+                    <button><span>ROUND TRIP <i class="fa-solid fa-caret-down"></i></span></button>
+                    <button><span> ONE-WAY <i class="fa-solid fa-caret-down"></i></span></button>
+                    <button><span>MULTI-CITY<i class="fa-solid fa-caret-down"></i></span></button>
+                </div> 
+                <div class="input">
+                    <span><input type="text" placeholder="From where?"></span>
+                    <span><input type="text" placeholder="To where?"></span>
+                    <span class="dots"><input type="date" value="2022-12-23" min="2022-11-01" max="2023-02-14">
+                    <input type="date" value="2022-12-24" min="2022-11-01" max="2023-02-14"></span>
+                    <input type="submit" value="Let's go" id="submit">
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="dates">My dates are flexible(+/- 3days) <span>Best value guaranteed</span>
+                </div> 
+                </div>  
+            </div>    
+        </section>
+        </div>
+        <section class="NO1">
+                <div class="waka">
+                    <div>
+                        <img src="https://www.wakanow.com/assets/images/icons/africa-icon.svg">
+                    </div>
+                    <div>
+                        <h5>Africa's No. 1</h5>
+                        <p>Wakanow is Africa's leading travel company</p>
+                    </div>
+                </div>
+                <div class="now">
+                    <div>
+                        <img src="https://www.wakanow.com/assets/images/icons/pay-small-small.svg">
+                    </div>
+                    <div>
+                        <h5>Pay Small Small</h5>
+                        <p>Lock down great travel deals and pay in convenient installments</p>
+                    </div>
+                </div>
+                <div class="com">
+                    <div>
+                        <img src="https://www.wakanow.com/assets/images/icons/telemarketer.svg">
+                    </div>
+                    <div>
+                        <h5>We are here for you</h5>
+                        <p>Reach us 24/7  (Monday - Sunday)</p>
+                    </div>
+                </div>
+        </section>
+        <section class="image">
+            <img src="https://wakanow-images.azureedge.net/SlideBannerImages/unitedairline.jpg">
+            <img src="https://wakanow-images.azureedge.net/SlideBannerImages/maasUpdate-m.png">
+        </section>
+        <section >
+            <h5 class="h5">Today's Flight Deals <i class="fa-solid fa-badge-check"></i></h5>
+            <div class="flight">
+                <div class="all-time">
+                    <div class="time">
+                        <div>
+                            <p>Abuja <i class="fa-solid fa-arrow-right"></i> London</p>
+                            <p class="font-12">Jan 1, 2023 - Jan 30, 2023</p>
+                        </div>
+                        <div>
+                            <img src="https://wakanow-images-prod.azureedge.net/Images/Airline/Logos/AF.gif">
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <div>
+                            <p>Pay now</p>
+                            <h5>₦739,051</h5>
+                        </div>
+                        <div>
+                                <div class="fare">
+                                    <div>
+                                        <img src="https://www.wakanow.com/assets/images/icons/paysmallsmall-white.png">
+                                    </div>
+                                    <div class="lock">
+                                        <p>Lock this fare</p>
+                                        <span>₦206,934</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="time">
+                        <div>
+                            <p>Lagos <i class="fa-solid fa-arrow-right"></i> London</p>
+                            <p class="font-12">Jan 23, 2023 - Feb 19, 2023</p>
+                        </div>
+                        <div>
+                            <img src="https://wakanow-images-prod.azureedge.net/Images/Airline/Logos/AT.gif">
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <div>
+                            <p>Pay now</p>
+                            <h5>₦677,205</h5>
+                        </div>
+                        <div>
+                                <div class="fare">
+                                    <div>
+                                        <img src="https://www.wakanow.com/assets/images/icons/paysmallsmall-white.png">
+                                    </div>
+                                    <div class="lock">
+                                        <p>Lock this fare</p>
+                                        <span>₦189,617</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ally">
+                    <div class="time">
+                        <div>
+                            <p>Lagos <i class="fa-solid fa-arrow-right"></i> Dubai</p>
+                            <p class="font-12">Jan 14, 2023 - Feb 13, 2023</p>
+                        </div>
+                        <div>
+                            <img src="https://wakanow-images-prod.azureedge.net/Images/Airline/Logos/WB.gif">
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <div>
+                            <p>Pay now</p>
+                            <h5>₦781,404</h5>
+                        </div>
+                        <div>
+                                <div class="fare">
+                                    <div>
+                                        <img src="https://www.wakanow.com/assets/images/icons/paysmallsmall-white.png">
+                                    </div>
+                                    <div class="lock">
+                                        <p>Lock this fare</p>
+                                        <span>₦218,793</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="location">
+            <h4>Hotels in Popular Locations</h4>
+            <div class="hotel">
+                <div class="dub">
+                    <div></div>
+                    <div>
+                        <h5>Dubai</h5>
+                        <p>315 Hotels</p>
+                    </div>
+                </div>
+                <div class="lon">
+                    
+                    <div>
+                        <h5>London</h5>
+                        <p>841 Hotels</p>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <section class="assets">
+            <div class="mobile">
+                <img src="https://www.wakanow.com/assets/images/app-download-icon-desktop.png">
+            </div>
+            <div class="amazing">
+                <h2>Get an amazing mobile app experience</h2>
+                <p>Download our Mobile App free today to book your flights, hotels, and visas and get amazing deals on the go!</p>
+                <div class="store">
+                    <div class="play">
+                        <img src="	https://www.wakanow.com/assets/images/IOS-image.png">
+                        <img src="https://www.wakanow.com/assets/images/Play-store.png">
+                    </div>
+                    <div class="or">OR</div>
+                    <div class="roe"><img src="	https://www.wakanow.com/assets/images/app-qr.svg" width="120px"></div>
+                </div>
+            </div>
+        </section>
+        <section class="deal">
+            <div class="dive">
+                <h4>Like travel deals?</h4>
+                <p>Enter your email and we'll send them your way.</p>
+                <div>
+                    <input type="email" placeholder="Enter your email address" name="mail">
+                    <input type="submit" value="Subscribe">
+                </div>
+                <p>Your privacy is important to us, so we'll never spam you or share your info with third parties. Take a look at our privacy policy. You can unsubscribe at any time.</p>
+            </div>
+        </section>
+        <section class="fligt">
+            <h5>Search Flights, Hotels, Bus and Holiday Packages</h5>
+            <p>Wakanow is Africa's leading, full-service online travel company. At Wakanow, we understand that everyone likes easy and affordable travel services, so we provide our customers with a one-stop booking portal for Affordable Flights, Hotels, Visa Assistance, Holiday Packages, Airport Transfers, a Loyalty program, and much more. Our portal gives customers the power of choice from a broad selection of top travel deals, and the ability to research, plan and book their domestic and international travel from the comfort of their homes and everywhere they are. We also have an interactive Call Centre and physical travel centres numbering 32 and counting across Nigeria, with a dedicated travel centre strategically located at international airports for customers' convenience. We have offices in Ghana, Dubai, and Sierra Leone with aggressive plans to expand into several African countries and the rest of the world. Our strategic relationships with Travel Partners ensure we offer the best travel deals to our customers, every time.</p>
+        </section>
+        <section class="niger">
+            <div class="from">
+                <h5>Cheap flights from Nigeria</h5>
+                <div class="cheap">
+                    <div>
+                        <h5>African Flights</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Flights to Accra</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Nairobi</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Cape Town</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Johannesburg</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>European Flights</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Flights to London</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Istanbul</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Manchester</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Paris</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Asian Flights</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Flights to Dubai</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Abu Dhabi</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Guangzouu</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to New Delhi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>North American Flights</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Flights to Atlanta</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Toronto</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to Houston</a>
+                            </li>
+                            <li>    
+                                <a href="#">Flights to New York</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="from">
+                <h5>Cheap hotels in popular destinations</h5>
+                <div class="cheap">
+                    <div>
+                        <h5>African Hotels</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Hotels in Accra</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Nairobi</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Cape Town</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Johannesburg</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>European Hotels</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Hotels in London</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Istanbul</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Manchester</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Paris</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Asian Hotels</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Hotels in to Dubai</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Abu Dhabi</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Guangzouu</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in New Delhi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>North American Hotels</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Hotels in Atlanta</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Toronto</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in Houston</a>
+                            </li>
+                            <li>    
+                                <a href="#">Hotels in New York</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="international">
+            <div>
+                <h5>Get exclusive deals on our products</h5>
+                <p>Book Flights, Domestic Flights, International Flights, Search Hotels, Holiday Packages, Visa Assistance, and Pay Small Small</p>
+            </div>
+            <div>
+                <h5>Follow us!</h5>
+                <p>Stay tuned and access the latest deals and discounts with:</p>
+                <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i></span>
+            </div>
+            <div>
+                <h5>Get inspired for your next trip!</h5>
+                <p>Find information about the best travel destinations and events in our Dreamguides. Discover our travel guide.</p>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <h5>Wakanow</h5>
+                <a href="#">About us</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact us</a>
+                <a href="#">Wakanow Affiliates</a>
+                <a href="#">Refer a customer</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <p>Copyright &copy; 2008-2022 WAKANOW.COM LIMITED.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
